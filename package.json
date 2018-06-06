@@ -1,6 +1,6 @@
 {
   "name": "longcloud-crypto",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "md5、sha256…",
   "repository": "gaohelong/longcloud-crypto",
   "main": "index.js",

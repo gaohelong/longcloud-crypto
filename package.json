@@ -1,0 +1,26 @@
+{
+  "name": "longcloud-crypto",
+  "version": "0.0.1",
+  "description": "md5、sha256…",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix .",
+    "test": "NODE_ENV=test mocha --reporter spec",
+    "test-cov": "NODE_ENV=test istanbul cover ./node_modules/.bin/_mocha",
+    "test-travis": "NODE_ENV=test istanbul cover ./node_modules/.bin/_mocha --report lcovonly"
+  },
+  "keywords": [
+    "md5",
+    "sha256"
+  ],
+  "author": "helong.gao",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "koa": "^2.5.1"
+  }
+}
